@@ -52,22 +52,22 @@ Proveemos todas las ejecuciones y datos de nuestro artículo [aquí](https://dri
 
 ## Tabla de Contenidos
 
-1. ([Introducción](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#introducci%C3%B3n))
+1. [Introducción](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#introducci%C3%B3n)
 2. [Requisitos](#requirements)
-   - [Instalación](#installation)
-   - [Modelos soportados y claves API](#supported-models-and-api-keys)
-3. [Configuración de las Plantillas](#setting-up-the-templates)
-   - [Plantilla NanoGPT](#nanogpt-template)
-   - [Plantilla Difusión 2D](#2d-diffusion-template)
-   - [Plantilla Grokking](#grokking-template)
-4. [Ejecutar Experimentos de Generación de Artículos con AI Scientist](#run-ai-scientist-paper-generation-experiments)
-5. [Obtener una Revisión de Artículo Generado por LLM](#getting-an-llm-generated-paper-review)
-6. [Crear Tu Propia Plantilla](#making-your-own-template)
-   - [Plantillas Contribuidas por la Comunidad](#community-contributed-templates)
-7. [Recursos de Plantillas](#template-resources)
-8. [Cómo Citar El Científico de IA](#citing-the-ai-scientist)
-9. [Preguntas Frecuentes](#frequently-asked-questions)
-10. [Contenerización](#containerization)
+   - [Instalación](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#instalaci%C3%B3n)
+   - [Modelos soportados y claves API](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#instalaci%C3%B3n)
+3. [Configuración de las plantillas](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#instalaci%C3%B3n)
+   - [Plantilla NanoGPT](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#plantilla-nanogpt)
+   - [Plantilla Difusión 2D](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#plantilla-de-difusi%C3%B3n-2d)
+   - [Plantilla Grokking](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#plantilla-grokking)
+4. [Ejecutar Experimentos de Generación de Artículos con AI Scientist](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#ejecutar-experimentos-de-generaci%C3%B3n-de-art%C3%ADculos-con-ai-scientist)
+5. [Obtener una revisión de artículo generado por LLM](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#obtener-una-revisi%C3%B3n-de-art%C3%ADculo-generado-por-llm)
+6. [Crear tu propia plantilla](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#crear-tu-propia-plantilla)
+
+7. [Recursos de plantillas](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#recursos-de-plantillas)
+8. [Cómo citar El Científico de IA](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#c%C3%B3mo-citar-ai-scientist)
+9. [Preguntas frecuentes](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#preguntas-frecuentes)
+10. [Contenerización](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#contenerizaci%C3%B3n-containerization)
 
 ## Introducción
 
@@ -176,13 +176,13 @@ python ai_scientist/run_ai_scientist.py \
 ```
 Este código generará artículos completos y almacenará todos los resultados, incluyendo los resúmenes, ideas generadas, código ejecutado, resultados experimentales y el PDF final.
 
-#### Obtener una revisión de artículo generado por LLM
+#### Obtener una Revisión de Artículo Generado por LLM
 También puedes usar AI Scientist para obtener una revisión de los artículos generados. El revisor AI proporciona sugerencias para mejorar el contenido, la organización y la claridad del artículo:
 ```
 python ai_scientist/review_ai_scientist.py \
   --input_path path/to/generated/paper
 ```
-## **Crear tu propia plantilla**
+**Crear tu propia plantilla**
 Puedes diseñar tus propias plantillas para generar artículos científicos en dominios personalizados. Solo necesitas crear un archivo Python siguiendo el formato de las plantillas existentes e integrarlo al sistema.
 
 **Plantillas contribuidas por la comunidad**
@@ -190,7 +190,7 @@ Aceptamos nuevas plantillas por parte de la comunidad. Estas plantillas deben in
 
   ***⚠️ Nota: No damos soporte a las plantillas comunitarias.***
 
-## **Recursos de plantillas**
+**Recursos de plantillas**
 En el directorio ai_scientist/templates/, encontrarás ejemplos de cómo están estructuradas las plantillas. Cada plantilla incluye:
 
 - Archivos para generación de ideas
@@ -198,7 +198,7 @@ En el directorio ai_scientist/templates/, encontrarás ejemplos de cómo están 
 - Código para análisis y visualización
 - Código para generar el PDF final
 
-## Cómo citar AI Scientist
+##Cómo Citar AI Scientist
 Si utilizas este trabajo en tu investigación, por favor cita nuestro artículo:
 
 > AI Scientist: LLMs can generate scientific papers from arbitrary experimental results  
