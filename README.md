@@ -52,7 +52,7 @@ Proveemos todas las ejecuciones y datos de nuestro artículo [aquí](https://dri
 
 ## Tabla de Contenidos
 
-1. [Introducción](#introduction)
+1. ([Introducción](https://github.com/eduardoleon9010/expolorando_cientifico_IA/blob/main/README.md#introducci%C3%B3n))
 2. [Requisitos](#requirements)
    - [Instalación](#installation)
    - [Modelos soportados y claves API](#supported-models-and-api-keys)
