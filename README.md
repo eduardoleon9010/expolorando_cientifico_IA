@@ -176,13 +176,13 @@ python ai_scientist/run_ai_scientist.py \
 ```
 Este código generará artículos completos y almacenará todos los resultados, incluyendo los resúmenes, ideas generadas, código ejecutado, resultados experimentales y el PDF final.
 
-#### Obtener una Revisión de Artículo Generado por LLM
+#### Obtener una revisión de artículo generado por LLM
 También puedes usar AI Scientist para obtener una revisión de los artículos generados. El revisor AI proporciona sugerencias para mejorar el contenido, la organización y la claridad del artículo:
 ```
 python ai_scientist/review_ai_scientist.py \
   --input_path path/to/generated/paper
 ```
-**Crear tu propia plantilla**
+## **Crear tu propia plantilla**
 Puedes diseñar tus propias plantillas para generar artículos científicos en dominios personalizados. Solo necesitas crear un archivo Python siguiendo el formato de las plantillas existentes e integrarlo al sistema.
 
 **Plantillas contribuidas por la comunidad**
@@ -190,7 +190,7 @@ Aceptamos nuevas plantillas por parte de la comunidad. Estas plantillas deben in
 
   ***⚠️ Nota: No damos soporte a las plantillas comunitarias.***
 
-**Recursos de plantillas**
+## **Recursos de plantillas**
 En el directorio ai_scientist/templates/, encontrarás ejemplos de cómo están estructuradas las plantillas. Cada plantilla incluye:
 
 - Archivos para generación de ideas
@@ -198,7 +198,7 @@ En el directorio ai_scientist/templates/, encontrarás ejemplos de cómo están 
 - Código para análisis y visualización
 - Código para generar el PDF final
 
-##Cómo Citar AI Scientist
+## Cómo citar AI Scientist
 Si utilizas este trabajo en tu investigación, por favor cita nuestro artículo:
 
 > AI Scientist: LLMs can generate scientific papers from arbitrary experimental results  
